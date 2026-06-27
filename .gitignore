@@ -1,0 +1,42 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# CMake and Ninja generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Pico SDK build outputs
+*.bin
+*.dis
+*.elf
+*.elf.map
+*.hex
+*.uf2
+*.map
+
+# Object and dependency files
+*.a
+*.d
+*.o
+*.obj
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Local agent/tooling state
+.agents/
+.codex/
+
+# Editor configuration
+.vscode/
