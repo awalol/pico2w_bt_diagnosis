@@ -6,6 +6,12 @@ A minimal Raspberry Pi Pico 2 W Bluetooth Classic inquiry diagnostic firmware.
 
 This project powers on the Pico 2 W CYW43 Bluetooth controller, starts a Bluetooth inquiry scan, prints nearby device information over USB serial, and repeats the scan every few seconds. It is intended as a small diagnosis program for checking whether Bluetooth initialization and inquiry scanning work on a Pico 2 W board.
 
+
+
+https://github.com/user-attachments/assets/b0afc46a-5c73-4335-a54a-66c47ae40878
+
+
+
 ## What It Prints
 
 The USB serial log includes:
