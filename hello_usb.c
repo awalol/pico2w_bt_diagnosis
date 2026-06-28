@@ -25,9 +25,7 @@ static absolute_time_t next_scan_time;
 static void start_scan(void);
 
 static void wait_for_usb_stdio(void) {
-    absolute_time_t timeout = make_timeout_time_ms(5000);
-
-    while (!stdio_usb_connected() && absolute_time_diff_us(get_absolute_time(), timeout) > 0) {
+    while (!stdio_usb_connected()) {
         sleep_ms(100);
     }
 }
